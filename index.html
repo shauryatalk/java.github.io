@@ -8,12 +8,13 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Exo:wght@800&display=swap" rel="stylesheet">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-.fa-anchor,.fa-coffee {font-size:200px}
+
 .headcol{ background-color: rgb(14, 16, 20);
 }
 
@@ -52,6 +53,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   display: table;
   clear: both;
 }
+.w3-bar .w3-button {
+  padding: 16px;
+}
 .button1 {
  
    cursor: pointer;
@@ -62,6 +66,11 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
         font-size: 2px;
         box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
 }
+.button2{
+
+background-color: blue; /* Green */
+  border: none;
+  color: white;}
 </style>
 <body>
 
@@ -81,31 +90,16 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
     <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-      <i class="fa fa-bars"></i>
+      <button class="button2"><b>Start Learning</b></button></div>
     </a>
   </div>
 </div>
 
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
-  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
-  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
-  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
-  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+
 </nav>
 
-
-
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
-  </div>
-</div>
 
 <!-- Header -->
 <header class="w3-container headcol w3-hide-small" style="padding:120px 10px">
@@ -129,7 +123,8 @@ data="https://www.youtube.com/embed/pQN-pnXPaVg">
 
 
 <header class="w3-container headcol w3-center w3-hide-large" style="padding:60px 2px">
-  <object
+ <br>
+ <object
 data="https://www.youtube.com/embed/pQN-pnXPaVg">
 </object>
 <br>
