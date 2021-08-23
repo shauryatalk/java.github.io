@@ -605,11 +605,11 @@ data="https://www.youtube.com/embed/pQN-pnXPaVg">
 <span class="fa fa-star-half-o" style="color:yellow;font-size:40px;"></span>
 </div>
 
-<p class="w3-center w3-hide-small" style="font-size: 30px;margin-top: 10px;">Rated <span style="color:blue;font-weight:bold">4.8 </span><span style="color:yellowgreen;font-weight:bold"> (Based On 103 Reviews)</span></p>
+<p class="w3-center w3-hide-small" style="font-size: 30px;margin-top: 10px;"><span style="color:white;font-weight:bold">Rated</span> <span style="color:yellow;font-weight:bold">4.8 </span><span style="color:yellowgreen;font-weight:bold"> (Based On 103 Reviews)</span></p>
 <p class="w3-center w3-hide-large w3-hide-medium" style="font-size: 15px;margin-top: 10px;">Rated <span style="color:blue;font-weight:bold">4.8 </span><span style="color:yellowgreen;font-weight:bold"> (Based On 103 Reviews)</span></p>
 <hr class="new2">
  <div class="w3-hide-small w3-center"><h1 class="w3-text-white"><b>Companies Waiting For You</b></h1></div>
-        <div class="w3-hide-medium w3-hide-large w3-center"><h1 class="w3-text-white"  style="font-size: 20px"><b>Companies Waiting For You</b></h1></div>
+        <div class="w3-hide-medium w3-hide-large w3-center"><h1 class="w3-text-white"  style="font-size: 15px"><b>Companies Waiting For You</b></h1></div>
         <hr style="width:100px;border:3px solid red;margin: auto;" class="w3-round"><br>
 
 <div class="w3-row-padding w3-center">
@@ -651,18 +651,7 @@ data="https://www.youtube.com/embed/pQN-pnXPaVg">
     
 </div>
 
-<!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
-  <div class="w3-xlarge w3-padding-32">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
- </div>
- <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
+
 
 <script>
 // Used to toggle the menu on small screens when clicking on the menu button
@@ -674,6 +663,14 @@ function myFunction() {
     x.className = x.className.replace(" w3-show", "");
   }
 }
+
+var message = "function disabled";
+
+function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
+
+if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
+
+document.onmousedown = rtclickcheck;
 </script>
 
 </body>
