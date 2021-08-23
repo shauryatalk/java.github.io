@@ -312,7 +312,7 @@ background-size: cover;
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
     <a href="javascript:void(0)" class="w3-bar-item w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-      <button class="button2"><b>Start Learning</b></button></div>
+      <button class="button2" onclick="myFunction()"><b>Start Learning</b></button></div>
     </a>
   </div>
 </div>
@@ -340,7 +340,7 @@ data="https://www.youtube.com/embed/pQN-pnXPaVg">
   <p class="w3-xlarge w3-margin text1">India's Most Premium & Affordable <b>Java Full Stack</b> Development Course</p>
 
 
-  <button class="button1 w3-margin w3-padding-large w3-large w3-margin-top"><b>ENROLLMENT CLOSED</b></button>
+  <button class="button1 w3-margin w3-padding-large w3-large w3-margin-top" onclick="myFunction()"><b>ENROLLMENT CLOSED</b></button>
 
   <p class="w3-margin price1" style="color: white;font-weight: bold;">&#9889 &#128176  INR 1,499/-</p></div>
 
@@ -683,6 +683,11 @@ function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which =
 if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
 
 document.onmousedown = rtclickcheck;
+
+
+function myFunction() {
+  alert("Sorry, Enrollment Closed !!");
+}
 </script>
 
 </body>
