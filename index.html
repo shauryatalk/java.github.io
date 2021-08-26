@@ -18,7 +18,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
 
-
+<link href="https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&display=swap" rel="stylesheet">
 
 <style>
 body,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
@@ -29,6 +29,13 @@ body,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   
    font-family: Arial, Helvetica, sans-serif;
 }
+.fonttimelinecard{
+  font-family: 'Delius Unicase', cursive;
+  font-size: 13px;
+  line-height: 2;
+}
+
+
 .headcol{ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1002%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(8%2c 0%2c 93%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c482.2C89.196%2c467.039%2c128.201%2c362.294%2c190.936%2c297.102C237.963%2c248.233%2c288.94%2c206.233%2c322.357%2c147.216C358.349%2c83.653%2c383.724%2c16.466%2c390.997%2c-56.217C399.957%2c-145.763%2c427.649%2c-251.484%2c369.091%2c-319.819C310.567%2c-388.115%2c199.665%2c-361.262%2c112.079%2c-381.707C30.547%2c-400.739%2c-45.522%2c-450.373%2c-127.977%2c-435.849C-214.236%2c-420.655%2c-284.219%2c-361.725%2c-347.157%2c-300.813C-414.832%2c-235.318%2c-486.585%2c-165.038%2c-503.523%2c-72.396C-520.678%2c21.434%2c-487.913%2c118.626%2c-438.792%2c200.39C-392.713%2c277.092%2c-313.055%2c321.617%2c-237.766%2c369.971C-162.5%2c418.31%2c-88.187%2c497.19%2c0%2c482.2' fill='%2306004a'%3e%3c/path%3e%3cpath d='M1440 1060.92C1533.573 1055.555 1612.442 1001.1220000000001 1695.126 956.985 1785.351 908.822 1917.164 889.164 1945.73 790.9590000000001 1975.2150000000001 689.597 1849.0810000000001 607.57 1826.779 504.39 1806.864 412.256 1865.0149999999999 312.16999999999996 1823.905 227.34500000000003 1779.026 134.745 1692.62 64.05099999999999 1596.091 28.400999999999954 1496.405-8.413999999999987 1384.184-6.863000000000056 1283.749 27.857999999999947 1185.737 61.740999999999985 1116.15 142.22199999999998 1045.9769999999999 218.57799999999997 973.8009999999999 297.114 891.8 373.63300000000004 870.013 478.048 847.659 585.182 870.834 700.182 925.734 794.857 978.192 885.321 1072.474 939.308 1165.353 987.36 1251.27 1031.811 1343.424 1066.4569999999999 1440 1060.92' fill='%230a0070'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1002'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");}
 .checked {
   color: yellow;
@@ -38,6 +45,7 @@ body,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   background-color: #040404;
 background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%233b393e' fill-opacity='0.11'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
+
 .headstyle{
   font-family: 'Exo', sans-serif;
   color: white;
@@ -322,8 +330,8 @@ data="https://www.youtube.com/embed/-uUzDz49oKs">
 
     </div>
   <div class="column">
-  <h1 class="w3-margin headstyle">Made By Developer &#9889 For Developer&#128293;</h1>
-  <p class="w3-xlarge w3-margin text1">India's Most Premium & Affordable <b>Java Full Stack</b> Development Course</p>
+  <h1 class="w3-margin headstyle">Become a Pro Ethical &#9889 Hacker in 1 Month  &#128293;</h1>
+  <p class="w3-xlarge w3-margin text1">India's Most Premium & Yet Affordable Complete <br><b>Ethical Hacking</b> Course</p>
 
 
   <button class="button1 w3-margin w3-padding-large w3-large w3-margin-top" onclick="myFunction()"><b>ENROLLMENT CLOSED</b></button>
@@ -362,19 +370,18 @@ data="https://www.youtube.com/embed/-uUzDz49oKs">
         <div class="w3-quarter">
          
           <div class="w3-container" style=" border: 2px solid gray;border-radius: 8px;border-style: dashed;">
-            <p class="headinghead" style="color:white;font-size:20px;">&#x1F4AC PROJECTS</p>
+            <p class="headinghead" style="color:white;font-size:20px;">&#x1F4AC LIVE HACKING</p>
             
-            <p class="fontcard" style="color:#cccccc">High quality & Industry demanded projects to keep you updated with the real industrial work environment.</p>
+            <p class="fontcard" style="color:#cccccc">Live Hacking & Industry demanded projects to keep you updated with the real industrial work environment.</p>
             
           </div>
         </div>
         <div class="w3-quarter">
          
           <div class="w3-container" style=" border: 2px solid gray;border-radius: 8px;border-style: dashed;">
-            <p class="headinghead" style="color:white;font-size:20px;">&#x1F4BC ANY GRADUATE</p>
+            <p class="headinghead" style="color:white;font-size:20px;">&#x1F4BCNO GRADUATION</p>
             
-            <p class="fontcard" style="color:#cccccc">Whether you are B.A./B.C.A./B.Tech or any other graduate, No Matter. This course is for everyone.</p>
-            
+            <p class="fontcard" style="color:#cccccc">Whether you are 10th Pass/12th Pass/B.A./B.C.A./B.Tech or any other graduate, No Matter. This course is for everyone.</p>
           </div>
         </div>
       </div>
@@ -394,8 +401,8 @@ data="https://www.youtube.com/embed/-uUzDz49oKs">
 data="https://www.youtube.com/embed/-uUzDz49oKs">
 </object>
 <br>
-  <h1 class="w3-margin headstyle-mob"> Made &#x1F4BB By  Developer&#9889 For Developer&#128293;</h1>
-  <p class="text1-mob">India's Most Premium & Affordable <b>Java Full Stack</b> Development Course</p>
+  <h1 class="w3-margin headstyle-mob">Become a Pro Ethical &#9889 Hacker in 1 Month&#128293;</h1>
+  <p class="text1-mob">India's Most Premium & Yet Affordable Complete <b>Ethical Hacking</b> Course</p>
 
 
   <button class="button1 w3-margin w3-padding-large w3-large w3-margin-top" onclick="myFunction()"><b>ENROLLMENT CLOSED</b></button>
@@ -422,16 +429,16 @@ data="https://www.youtube.com/embed/-uUzDz49oKs">
 
 
           <div class="w3-container w3-margin" style="border: 2px solid gray;border-radius: 8px;border-style: dashed;">
-            <p class="headinghead" style="color:white;font-size:15px;">&#x1F4AC PROJECTS</p>
+            <p class="headinghead" style="color:white;font-size:15px;">&#x1F4AC LIVE HACKING</p>
             
            
-            <p class="fontcard" style="color:#cccccc">High quality & Industry demanded projects to keep you updated with the real industrial work environment.</p>
+            <p class="fontcard" style="color:#cccccc">Live Hacking & Industry demanded projects to keep you updated with the real industrial work environment.</p>
           </div>
 
 <div class="w3-container w3-margin" style="border: 2px solid gray;border-radius: 8px;border-style: dashed;">
-            <p class="headinghead" style="color:white;font-size:15px;">&#x1F4BC ANY GRADUATE</p>
+            <p class="headinghead" style="color:white;font-size:15px;">&#x1F4BC NO GRADUATION</p>
             
-                <p class="fontcard" style="color:#cccccc">Whether you are B.A./B.C.A./B.Tech or any other graduate, No Matter. This course is for everyone.</p>
+                <p class="fontcard" style="color:#cccccc">Whether you are 10th Pass/12th Pass/B.A./B.C.A./B.Tech or any other graduate, No Matter. This course is for everyone.</p>
             
           </div>
 
@@ -449,109 +456,267 @@ data="https://www.youtube.com/embed/-uUzDz49oKs">
 
 
   <div class="w3-content w3-center">
-   <div class="w3-center headinghead w3-hide-large w3-hide-medium"><span style="color: black;text-align: center; font-size: 25px;">The Timeline Of Success</span></div>
-   <div class="w3-center headinghead w3-hide-small"><span style="text-align: center;font-size: 40px;color: black">The Timeline Of Success</span></div>
+   <div class="w3-center headinghead w3-hide-large w3-hide-medium"><span style="color: black;text-align: center; font-size: 25px;">What You'll Learn !!</span></div>
+   <div class="w3-center headinghead w3-hide-small"><span style="text-align: center;font-size: 40px;color: black">What You'll Learn !!</span></div>
        
     <hr style="width:100px;border:3px solid red;margin: auto;" class="w3-round"><br>
   <div class="timeline" style="margin-top:25px;">
-     <div class="container right">
-    <div class="content">
-      <p class="fonttimeline">Basics</p>
-      <p>We just start with the basics of programming & We'll go through all the concepts to make your base strong even if you are a non-cs guy.</p>
-    </div>
-  </div>
+     
   <div class="container left">
     <div class="content">
 
-      <p class="fonttimeline">Core Java</p>
-      <p>Then we just move to the concepts of Java. We will try to explore the structure of program, OOPs concepts, and many more core Java concepts in depth.</p>
+      <p class="fonttimelinecard">Basics of Ethical Hacking.</p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
-      <p class="fonttimeline">J2EE (Advanced)</p>
-      <p>Just after completeing core Java concepts, We will deep dive into Advanced Java. We will learn all the concepts of JDBC, Servlet, JSP, etc.</p>
+     
+      <p class="fonttimelinecard">Analysis of 20+ Hacking Tools.</p>
     </div>
   </div>
   <div class="container left">
     <div class="content">
-      <p class="fonttimeline">Frameworks</p>
-      <p>Now let's move to the frameworks. We will try to explore different Java frameworks and their concepts like Hibernate, Spring framework, Spring MVC, Spring Security, Spring Boot, Spring Data JPA, JUnit Mockito framework, Spring- JDBC Templates, etc.</p>
+      
+      <p class="fonttimelinecard">Install & Use Linux & Kali Linux.</p>
     </div>
   </div>
 
   <div class="container right">
     <div class="content">
-      <p class="fonttimeline">Web Services</p>
-      <p>In this step, you are introduced with some of the popular web services which are high in demand such as SOAP Web Services & RESTful Web Services.</p>
+    
+      <p class="fonttimelinecard">Different Types Of Network Attacks.</p>
     </div>
   </div>
   <div class="container left">
     <div class="content">
-      <p class="fonttimeline">Design Pattern</p>
-      <p>We will move forward to design patterns that are most useful while making high-end applications. These includes singleton pattern, factory pattern, prototype pattern, composite pattern, etc.</p>
+      
+      <p class="fonttimelinecard">Hack & Secure any Wifi Network.</p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
-      <p class="fonttimeline">Microservices</p>
-      <p>Next is to learn the different concepts of Microservices, it's architecture, microservices with Spring Boot along with various other advanced concepts.</p>
+      
+      <p class="fonttimelinecard">Different Linux Commands.</p>
     </div>
   </div>
   <div class="container left">
     <div class="content">
-      <p class="fonttimeline">Web Design</p>
-      <p>An attractive website leads to more customers, that's why companies look for talented developers with great front-end development skills. Here we will learn the concepts of web designing like HTML, CSS, Javascript, Bootstrap, W3 libraries, etc.</p>
+     
+      <p class="fonttimelinecard">Python Language & Tools</p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
-      <p class="fonttimeline">ReactJS</p>
-      <p>Most popular Javascript library for building high-end user interfaces and UI components. We will learn & implement all the concepts of ReactJS to build an attractive GUI.</p>
+    
+      <p class="fonttimelinecard">Website Peneteration Testing.</p>
     </div>
   </div>
   <div class="container left">
     <div class="content">
-      <p class="fonttimeline">AWS</p>
-      <p>Data is everywhere that's why the need of cloud is increasing. After completing the front end development part, we will jump into Amazon Web Services technology to learn the working of Amazon cloud services.</p>
+     
+      <p class="fonttimelinecard">System Peneteration Testing.</p>
     </div>
   </div>
 
   <div class="container right">
     <div class="content">
-      <p class="fonttimeline">Industrial Advance Concepts</p>
-      <p>Get ready to feel & explore the real industrial envionment. Put your hands into some of the advance industrial concepts like SVN, Jenkin, GIT, JSON, XML, JIRA, JUnit, etc.</p>
+     
+      <p class="fonttimelinecard">Networking Concepts & Analysis</p>
     </div>
   </div>
 <div class="container left">
     <div class="content">
-      <p class="fonttimeline">Industrail Softwares</p>
-      <p>In this section, We will try to explore various softwares that you are going to use while working in the industry such as Eclipse, MySQL, Atom, Visual Studio, Maven, etc.</p>
+
+      <p class="fonttimelinecard">SQL Injection - Discover, Exploit, Kill.</p>
     </div>
   </div>
 <div class="container right">
     <div class="content">
-      <p class="fonttimeline">DS & Algo</p>
-      <p>The highly demanded skill of any big company - Data structure & Algorithms. In this step, We will try to build our logical and analytical skills. We will explore & try to grab the concepts behind complex algorithms and data structures.</p>
+      
+      <p class="fonttimelinecard">Social Engineering Live Demonstration & Techniques.</p>
     </div>
   </div>
 <div class="container left">
     <div class="content">
-      <p class="fonttimeline">Projects</p>
-      <p>In this step, We will try to create various projects by using all such concepts that we have explored earlier. We will also try to create some complex & feature enriched projects that you can add to your resume.</p>
+      
+      <p class="fonttimelinecard">Different Encryption & Decryption Methodology.</p>
     </div>
   </div>
 <div class="container right">
     <div class="content">
-      <p class="fonttimeline">Interview Preparation</p>
-      <p>Finaly we will help you to get ready for your dream job. We will discuss hundereds of most asked interview questions and answers.</p>
+      
+      <p class="fonttimelinecard">Accessing Full Network Information.</p>
     </div>
   </div>
+
+<div class="container left">
+    <div class="content">
+      
+      <p class="fonttimelinecard">Bypass Antivirus Programs.</p>
+    </div>
+  </div>
+<div class="container right">
+    <div class="content">
+      
+      <p class="fonttimelinecard">Send requests to websites and analyse responses</p>
+    </div>
+  </div>
+<div class="container left">
+    <div class="content">
+<p class="fonttimelinecard">Address Resolution Protocol - Spoofing / Poisoning</p>
+    </div></div>
+<div class="container right">
+    <div class="content">
+<p class="fonttimelinecard">Run dictionary attacks and guess login information on login pages.</p>
+    </div></div>
+
+<div class="container left">
+    <div class="content">
+<p class="fonttimelinecard">Deep Analysis Of Website Working To Exploit & Protect.</p>
+    </div></div>
+<div class="container right">
+    <div class="content">
+<p class="fonttimelinecard">Account Access Of Any Client On Network.</p>
+    </div></div>
+
+    <div class="container left">
+    <div class="content">
+<p class="fonttimelinecard">Network Monitoring & Interception.</p>
+    </div></div>
+<div class="container right">
+    <div class="content">
+<p class="fonttimelinecard">Hacking & Gaining Access Using BufferOverflow.</p>
+    </div></div>
+
+
+<div class="container left">
+    <div class="content">
+<p class="fonttimelinecard">Analysis & Exploitation Using Backdoor.</p>
+    </div></div>
+<div class="container right">
+    <div class="content">
+<p class="fonttimelinecard">Analyse & modify HTTP requests and responses.</p>
+    </div></div>
+
+
+<div class="container left">
+    <div class="content">
+<p class="fonttimelinecard">Convert HTTPS Site to HTTP.</p>
+    </div></div>
+<div class="container right">
+    <div class="content">
+<p class="fonttimelinecard">Analysis of Full Information of Target website.</p>
+    </div></div>
+
+
+<div class="container left">
+    <div class="content">
+<p class="fonttimelinecard">Data Protection Using TCP.</p>
+    </div></div>
+<div class="container right">
+    <div class="content">
+<p class="fonttimelinecard">XSS vulnerabilities - Fix & Discover.</p>
+    </div></div>
+
+
+<div class="container left">
+    <div class="content">
+<p class="fonttimelinecard">Discover & Exploit Upload vulnerabilities.</p>
+    </div></div>
+<div class="container right">
+    <div class="content">
+<p class="fonttimelinecard">Modify Download Request Of Any Client Computer.</p>
+    </div></div>
+
+
+
+
+<div class="container left">
+    <div class="content">
+<p class="fonttimelinecard">DNS Spoofing Attack & Protection</p>
+    </div></div>
+<div class="container right">
+    <div class="content">
+<p class="fonttimelinecard">
+Discover unpublished directories & files associated with a target website.</p>
+    </div></div>
+
+
+
+<div class="container left">
+    <div class="content">
+<p class="fonttimelinecard">Read & Manipulate Network Packets.</p>
+    </div></div>
+<div class="container right">
+    <div class="content">
+<p class="fonttimelinecard">Analyze & Discover Sensitive Information from any website.</p>
+    </div></div> 
+
+<div class="container left">
+    <div class="content">
+<p class="fonttimelinecard">Man-in-middle attack - Exploitation & Security.</p>
+    </div></div>
+<div class="container right">
+    <div class="content">
+<p class="fonttimelinecard">Send data reliably over TCP.</p>
+    </div></div>
+
+
+
+<div class="container left">
+    <div class="content">
+<p class="fonttimelinecard">Dictionary Attack to gain login id & Pass.</p>
+    </div></div>
+<div class="container right">
+    <div class="content">
+<p class="fonttimelinecard">Encrypt To Prevent Attacks.</p>
+    </div></div> 
+
+    <div class="container left">
+    <div class="content">
+<p class="fonttimelinecard">Create Fake Wifi To Spy client Information</p>
+    </div></div>
+<div class="container right">
+    <div class="content">
+<p class="fonttimelinecard">Penetrate web security</p>
+    </div></div> 
+
+
+<div class="container left">
+    <div class="content">
+<p class="fonttimelinecard">Crack The WPA/WPA2 Private Shared Key Using Multiple Techniques</p>
+    </div></div>
+<div class="container right">
+    <div class="content">
+<p class="fonttimelinecard">Hack Windows 7, 8, 10 Using Different Methods</p>
+    </div></div> 
+
+
+<div class="container left">
+    <div class="content">
+<p class="fonttimelinecard">Stay anonymous online.</p>
+    </div></div>
+<div class="container right">
+    <div class="content">
+<p class="fonttimelinecard">Cloning Technique to hack Facebook, Instagram & other websites id pass</p>
+    </div></div> 
+
+<div class="container left">
+    <div class="content">
+<p class="fonttimelinecard">Deploy Keylogger From USB.</p>
+    </div></div>
+<div class="container right">
+    <div class="content">
+<p class="fonttimelinecard">Detect ARP poisoning and protect your self and your network against it.</p>
+    </div></div> 
+    
+
+
 </div>
    
 </div>
 
-
+<div class="w3-content w3-center w3-margin-top fonttimeline">And 100s Of Other Topics...</div>
 </div>
 
 
@@ -626,7 +791,7 @@ border: 4px solid gray;" alt="companies">
     <div class="w3-twothird">
       <p style="color:white;margin-top:60px;font-size: 30px;  font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;">&#x1F3A4 Your Host</p>
-      <h5 class="" style="color:white;font-size: 20px;line-height: 35px;">Hi, I'm <b>Shaurya</b> and I created this course to help students learn Java. I've cracked&#x1F680 <b>5+ off campus placements</b> and working with Govt. Of India. Through this course, I'm sharing my entire knowledge of Java&#x1F3F9.</h5>
+      <h5 class="" style="color:white;font-size: 20px;line-height: 35px;">Hi, I'm <b>Shaurya</b> and I created this course to help people learn Ethical hacking. I've cracked&#x1F680 <b>5+ off campus placements</b> and working with Govt. Of India. Through this course, I'm sharing my entire knowledge of Ethical Hacking&#x1F3F9.</h5>
 
 
     </div>
@@ -643,7 +808,7 @@ border: 4px solid gray;" alt="companies">
   
    <p style="color:white;font-size: 25px;  font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;">&#x1F3A4 Your Host</p>
-<p class="fontcard" style="color:#cccccc;text-align:justify;font-size: 20px;">Hi, I'm <b>Shaurya</b> and I created this course to help students learn Java. I've cracked&#x1F680 <b>5+ off campus placements</b> and working with Govt. Of India. Through this course, I'm sharing my entire knowledge of Java&#x1F3F9.</p>
+<p class="fontcard" style="color:#cccccc;text-align:justify;font-size: 20px;">Hi, I'm <b>Shaurya</b> and I created this course to help people learn Ethical Hacking. I've cracked&#x1F680 <b>5+ off campus placements</b> and working with Govt. Of India. Through this course, I'm sharing my entire knowledge of Ethical Hacking&#x1F3F9.</p>
   </div></div></div>
 
 <footer class="w3-center w3-black w3-padding-16 w3-hide-small">
