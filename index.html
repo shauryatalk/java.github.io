@@ -75,6 +75,16 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   color: #F0F8FF;
  
  }
+ .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+
+   background-color: Black;
+   color: white;
+   text-align: center;
+}
  .text1-mob{
   color: #F0F8FF;
   font-size:20px;
@@ -152,6 +162,33 @@ ul li:before {
   font-size: 19px;
   padding: 0 0 0 0px;
   margin-left: -30px;
+}
+.mybutton {
+  background-color: orange; 
+  border: none;
+  color:black;
+  padding: 6px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  margin: 10px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button3 {
+  background-color: black; 
+  color: orange; 
+  border: 3px solid orange;
+  border-radius:12px;
+}
+
+.button3:hover {
+  background-color: orange;
+  color: white;
 }
 
 .bgbody{
@@ -881,7 +918,14 @@ border: 4px solid gray;" alt="companies">
 <footer class="w3-center w3-black w3-padding-16 w3-hide-small">
   <p>Made With &#10084; | Powered By Github</p>
 </footer>
-
+<div class="footer"><button class="mybutton button3">Yes!! I Want To Learn</button>
+<p style="margin-top:-10px;margin-bottom: 4px;"><span class="fa fa-star checked" style="color:yellow;font-size:10px;"></span>
+<span class="fa fa-star checked" style="color:yellow;font-size:10px;"></span>
+<span class="fa fa-star checked" style="color:yellow;font-size:10px;"></span>
+<span class="fa fa-star checked" style="color:yellow;font-size:10px;"></span>
+<span class="fa fa-star-half-o" style="color:yellow;font-size:10px;"></span>
+<span class="fontbody" style="font-size:10px">4.8 Stars</span></p>
+</div>
 <footer class="w3-center w3-black w3-padding-16 w3-hide-large w3-hide-medium">
   <p style="font-size:15px">Made With &#10084; | Powered By Github</p>
 </footer>
