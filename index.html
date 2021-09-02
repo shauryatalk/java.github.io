@@ -817,33 +817,34 @@ Discover unpublished directories & files associated with a target website.</p>
  <span class="fontbody";><b>What You'll <span class="fontbodyorange">Learn</b></span></span></p>
 
 <hr style=" border: 1px solid orange;margin-top: 5px;">
+<button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-white w3-left-align">Open Section 1</button>
+<div id="Demo1" class="w3-container w3-hide">
 
-<p class="fontbody w3-center contentsection"><b> Section 1: Hacking Basics</b></p>
-<p style="font-size:17px">
- <span class="fontbody">First, we will start with the <span class="fontbodyorange">basics of ethical hacking.</span> Where we will discuss about the concept of ethical hacking, it's types, what are the things needed 🧲 for hacking, etc...etc.. So that your<span class="fontbodyorange"> base become strong</span> enough to grab other concepts easily.</span></p>
+  <p>Some text..</p>
+</div>
+<p class="fontbody w3-center contentsection"><b>✔ Hacking Basics</b></p>
 
-<p class="fontbody w3-center contentsection"><b> Section 2: Linux & its Commands</b></p>
-<p style="font-size:17px"><span class="fontbody">The most popular operating system for hacking is<span class="fontbodyorange"> "Kali Linux".</span> We will try to explore it in deep by installing it on virtual machine. We will also  learn some of the useful Kali linux commands which can be used further.</span></p>
 
-<p class="fontbody w3-center contentsection"><b> Section 3: Network Concept & Analysis</b></p>
-<p style="font-size:17px"><span class="fontbody">In this section, We will go through in depth about - <span class="fontbodyorange">What is Network, How it works</span>, What is TCP & UDP, What is IP & MAC Address, and various other networking concepts.</p>
+<p class="fontbody w3-center contentsection"><b>✔ Linux & its Commands</b></p>
 
-<p class="fontbody w3-center contentsection"><b> Section 4: Hacking Tools</b></p>
-<p style="font-size:17px"><span class="fontbody">In this section we will explore <span class="fontbodyorange">more than 20 ethical hacking</span> tools. We will try to understand, how these hacking tool works, & how to use them.</span></p>
 
-<p class="fontbody w3-center contentsection"><b> Section 5: Staying Anonymous</b></p>
-<p style="font-size:17px"><span class="fontbody">The first rule of hacking is to be anonymous, i.e., to hide ourself from the world...In this section we'll learn <span class="fontbodyorange">How to be anonymous </span>on internet...For example changing the M.A.C Address, using dark web, etc. etc..</span></p>
+<p class="fontbody w3-center contentsection"><b>✔ Network Concept & Analysis</b></p>
 
-<p class="fontbody w3-center contentsection"><b> Section 6: Pre Connection Attack</b></p>
-<p style="font-size:17px"><span class="fontbody">In this section, we will learn about different <span class="fontbodyorange">type of attacks</span>, For example, Packet Sniffing, Targeted Packet Sniffing, Deauthentication Attack, etc...etc. We will see how to perform these attacks, when & why to use them.</span></p>
+<p class="fontbody w3-center contentsection"><b>✔ 20+ Hacking Tools</b></p>
 
-<p class="fontbody w3-center contentsection"><b> Section 7: Wireless Hacking</b></p>
-<p style="font-size:17px"><span class="fontbody">Wireless hacking means, hacking wifi network or any type of network connected wirelessly. We will learn how to hack any <span class="fontbodyorange">WPA/WPA2 network,</span> How to perform fake authentication attack, etc...etc.</span></p>
+<p class="fontbody w3-center contentsection"><b>✔ Staying Anonymous</b></p>
 
-<p class="fontbody w3-center contentsection"><b> Section 8: Post Connection Attack</b></p>
-<p style="font-size:17px"><span class="fontbody">In this section, we will learn how to hack any computer or devices, after the device establish its connection. In this, we will also explore some <span class="fontbodyorange">advance hacking concepts</span> & tools such as Wireshark, deploying honeypots, etc..etc.</span></p>
 
-<p class="fontbody w3-center contentsection"><b> Section 9: Website Structure</b></p>
+<p class="fontbody w3-center contentsection"><b>✔ Pre Connection Attack</b></p>
+
+
+<p class="fontbody w3-center contentsection"><b>✔ Wireless Hacking</b></p>
+
+
+<p class="fontbody w3-center contentsection"><b>✔ Post Connection Attack</b></p>
+
+
+<p class="fontbody w3-center contentsection"><b>✔ Website Structure</b></p>
 <p style="font-size:17px"><span class="fontbody">The basic structure of any website is made up of HTML....We will try to understand the basic proramming languages like <span class="fontbodyorange">HTML, CSS, Javascript, SQL, etc.</span> that are used to design any website. We will also try to explore the structures of different websites & the role of languages being used.</span></p>
 
 
@@ -1098,6 +1099,18 @@ document.onmousedown = rtclickcheck;
 function myFunction() {
   alert("Sorry, Enrollment Closed !!");
 }
+
+
+
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+<
 </script>
 
 </body>
